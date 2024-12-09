@@ -20,7 +20,7 @@ def ask():
     logger.info(f"Received question: {message}")
     
     API_URL = "https://api-inference.huggingface.co/models/gpt2"
-    headers = {"Authorization": f"Bearer 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"}
+    headers = {"Authorization": f"Bearer Your_Key_API"}
     
     try:
         response = requests.post(API_URL, headers=headers, json={"inputs": message})
