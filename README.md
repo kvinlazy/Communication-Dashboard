@@ -1,6 +1,3 @@
-Here’s a well-structured README for your project based on the provided code:
-
----
 
 # Communication Dashboard
 
